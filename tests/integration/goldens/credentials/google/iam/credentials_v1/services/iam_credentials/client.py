@@ -40,6 +40,7 @@ from google.protobuf import timestamp_pb2  # type: ignore
 from .transports.base import IAMCredentialsTransport, DEFAULT_CLIENT_INFO
 from .transports.grpc import IAMCredentialsGrpcTransport
 from .transports.grpc_asyncio import IAMCredentialsGrpcAsyncIOTransport
+from .transports.rest import IAMCredentialsRestTransport
 
 
 class IAMCredentialsClientMeta(type):
@@ -52,6 +53,7 @@ class IAMCredentialsClientMeta(type):
     _transport_registry = OrderedDict()  # type: Dict[str, Type[IAMCredentialsTransport]]
     _transport_registry["grpc"] = IAMCredentialsGrpcTransport
     _transport_registry["grpc_asyncio"] = IAMCredentialsGrpcAsyncIOTransport
+    _transport_registry["rest"] = IAMCredentialsRestTransport
 
     def get_transport_class(cls,
             label: str = None,

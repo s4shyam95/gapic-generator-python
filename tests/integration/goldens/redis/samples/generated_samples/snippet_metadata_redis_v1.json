@@ -149,7 +149,7 @@
         "shortName": "create_instance"
       },
       "description": "Sample for CreateInstance",
-      "file": "redis_v1_generated_cloud_redis_create_instance_sync.py",
+      "file": "redis_v1_generated_cloud_redis_create_instance_sync_989489f5.py",
       "language": "PYTHON",
       "origin": "API_DEFINITION",
       "regionTag": "redis_v1_generated_CloudRedis_CreateInstance_sync",
@@ -185,7 +185,95 @@
           "type": "RESPONSE_HANDLING"
         }
       ],
-      "title": "redis_v1_generated_cloud_redis_create_instance_sync.py"
+      "title": "redis_v1_generated_cloud_redis_create_instance_sync_989489f5.py"
+    },
+    {
+      "canonical": true,
+      "clientMethod": {
+        "client": {
+          "fullName": "google.cloud.redis_v1.CloudRedisClient",
+          "shortName": "CloudRedisClient"
+        },
+        "fullName": "google.cloud.redis_v1.CloudRedisClient.create_instance",
+        "method": {
+          "fullName": "google.cloud.redis.v1.CloudRedis.CreateInstance",
+          "service": {
+            "fullName": "google.cloud.redis.v1.CloudRedis",
+            "shortName": "CloudRedis"
+          },
+          "shortName": "CreateInstance"
+        },
+        "parameters": [
+          {
+            "name": "request",
+            "type": "google.cloud.redis_v1.types.CreateInstanceRequest"
+          },
+          {
+            "name": "parent",
+            "type": "str"
+          },
+          {
+            "name": "instance_id",
+            "type": "str"
+          },
+          {
+            "name": "instance",
+            "type": "google.cloud.redis_v1.types.Instance"
+          },
+          {
+            "name": "retry",
+            "type": "google.api_core.retry.Retry"
+          },
+          {
+            "name": "timeout",
+            "type": "float"
+          },
+          {
+            "name": "metadata",
+            "type": "Sequence[Tuple[str, str]"
+          }
+        ],
+        "resultType": "google.api_core.operation.Operation",
+        "shortName": "create_instance"
+      },
+      "description": "Sample for CreateInstance",
+      "file": "redis_v1_generated_cloud_redis_create_instance_sync_d3c16674.py",
+      "language": "PYTHON",
+      "origin": "API_DEFINITION",
+      "regionTag": "redis_v1_generated_CloudRedis_CreateInstance_sync",
+      "segments": [
+        {
+          "end": 55,
+          "start": 27,
+          "type": "FULL"
+        },
+        {
+          "end": 55,
+          "start": 27,
+          "type": "SHORT"
+        },
+        {
+          "end": 33,
+          "start": 31,
+          "type": "CLIENT_INITIALIZATION"
+        },
+        {
+          "end": 45,
+          "start": 34,
+          "type": "REQUEST_INITIALIZATION"
+        },
+        {
+          "end": 52,
+          "start": 46,
+          "type": "REQUEST_EXECUTION"
+        },
+        {
+          "end": 56,
+          "start": 53,
+          "type": "RESPONSE_HANDLING"
+        }
+      ],
+      "title": "redis_v1_generated_cloud_redis_create_instance_sync_d3c16674.py"
     },
     {
       "canonical": true,
@@ -310,7 +398,7 @@
         "shortName": "delete_instance"
       },
       "description": "Sample for DeleteInstance",
-      "file": "redis_v1_generated_cloud_redis_delete_instance_sync.py",
+      "file": "redis_v1_generated_cloud_redis_delete_instance_sync_d3271076.py",
       "language": "PYTHON",
       "origin": "API_DEFINITION",
       "regionTag": "redis_v1_generated_CloudRedis_DeleteInstance_sync",
@@ -346,7 +434,87 @@
           "type": "RESPONSE_HANDLING"
         }
       ],
-      "title": "redis_v1_generated_cloud_redis_delete_instance_sync.py"
+      "title": "redis_v1_generated_cloud_redis_delete_instance_sync_d3271076.py"
+    },
+    {
+      "canonical": true,
+      "clientMethod": {
+        "client": {
+          "fullName": "google.cloud.redis_v1.CloudRedisClient",
+          "shortName": "CloudRedisClient"
+        },
+        "fullName": "google.cloud.redis_v1.CloudRedisClient.delete_instance",
+        "method": {
+          "fullName": "google.cloud.redis.v1.CloudRedis.DeleteInstance",
+          "service": {
+            "fullName": "google.cloud.redis.v1.CloudRedis",
+            "shortName": "CloudRedis"
+          },
+          "shortName": "DeleteInstance"
+        },
+        "parameters": [
+          {
+            "name": "request",
+            "type": "google.cloud.redis_v1.types.DeleteInstanceRequest"
+          },
+          {
+            "name": "name",
+            "type": "str"
+          },
+          {
+            "name": "retry",
+            "type": "google.api_core.retry.Retry"
+          },
+          {
+            "name": "timeout",
+            "type": "float"
+          },
+          {
+            "name": "metadata",
+            "type": "Sequence[Tuple[str, str]"
+          }
+        ],
+        "resultType": "google.api_core.operation.Operation",
+        "shortName": "delete_instance"
+      },
+      "description": "Sample for DeleteInstance",
+      "file": "redis_v1_generated_cloud_redis_delete_instance_sync_58b86228.py",
+      "language": "PYTHON",
+      "origin": "API_DEFINITION",
+      "regionTag": "redis_v1_generated_CloudRedis_DeleteInstance_sync",
+      "segments": [
+        {
+          "end": 48,
+          "start": 27,
+          "type": "FULL"
+        },
+        {
+          "end": 48,
+          "start": 27,
+          "type": "SHORT"
+        },
+        {
+          "end": 33,
+          "start": 31,
+          "type": "CLIENT_INITIALIZATION"
+        },
+        {
+          "end": 38,
+          "start": 34,
+          "type": "REQUEST_INITIALIZATION"
+        },
+        {
+          "end": 45,
+          "start": 39,
+          "type": "REQUEST_EXECUTION"
+        },
+        {
+          "end": 49,
+          "start": 46,
+          "type": "RESPONSE_HANDLING"
+        }
+      ],
+      "title": "redis_v1_generated_cloud_redis_delete_instance_sync_58b86228.py"
     },
     {
       "canonical": true,
@@ -479,7 +647,7 @@
         "shortName": "export_instance"
       },
       "description": "Sample for ExportInstance",
-      "file": "redis_v1_generated_cloud_redis_export_instance_sync.py",
+      "file": "redis_v1_generated_cloud_redis_export_instance_sync_06f844a2.py",
       "language": "PYTHON",
       "origin": "API_DEFINITION",
       "regionTag": "redis_v1_generated_CloudRedis_ExportInstance_sync",
@@ -515,7 +683,91 @@
           "type": "RESPONSE_HANDLING"
         }
       ],
-      "title": "redis_v1_generated_cloud_redis_export_instance_sync.py"
+      "title": "redis_v1_generated_cloud_redis_export_instance_sync_06f844a2.py"
+    },
+    {
+      "canonical": true,
+      "clientMethod": {
+        "client": {
+          "fullName": "google.cloud.redis_v1.CloudRedisClient",
+          "shortName": "CloudRedisClient"
+        },
+        "fullName": "google.cloud.redis_v1.CloudRedisClient.export_instance",
+        "method": {
+          "fullName": "google.cloud.redis.v1.CloudRedis.ExportInstance",
+          "service": {
+            "fullName": "google.cloud.redis.v1.CloudRedis",
+            "shortName": "CloudRedis"
+          },
+          "shortName": "ExportInstance"
+        },
+        "parameters": [
+          {
+            "name": "request",
+            "type": "google.cloud.redis_v1.types.ExportInstanceRequest"
+          },
+          {
+            "name": "name",
+            "type": "str"
+          },
+          {
+            "name": "output_config",
+            "type": "google.cloud.redis_v1.types.OutputConfig"
+          },
+          {
+            "name": "retry",
+            "type": "google.api_core.retry.Retry"
+          },
+          {
+            "name": "timeout",
+            "type": "float"
+          },
+          {
+            "name": "metadata",
+            "type": "Sequence[Tuple[str, str]"
+          }
+        ],
+        "resultType": "google.api_core.operation.Operation",
+        "shortName": "export_instance"
+      },
+      "description": "Sample for ExportInstance",
+      "file": "redis_v1_generated_cloud_redis_export_instance_sync_71760e0e.py",
+      "language": "PYTHON",
+      "origin": "API_DEFINITION",
+      "regionTag": "redis_v1_generated_CloudRedis_ExportInstance_sync",
+      "segments": [
+        {
+          "end": 52,
+          "start": 27,
+          "type": "FULL"
+        },
+        {
+          "end": 52,
+          "start": 27,
+          "type": "SHORT"
+        },
+        {
+          "end": 33,
+          "start": 31,
+          "type": "CLIENT_INITIALIZATION"
+        },
+        {
+          "end": 42,
+          "start": 34,
+          "type": "REQUEST_INITIALIZATION"
+        },
+        {
+          "end": 49,
+          "start": 43,
+          "type": "REQUEST_EXECUTION"
+        },
+        {
+          "end": 53,
+          "start": 50,
+          "type": "RESPONSE_HANDLING"
+        }
+      ],
+      "title": "redis_v1_generated_cloud_redis_export_instance_sync_71760e0e.py"
     },
     {
       "canonical": true,
@@ -648,7 +900,7 @@
         "shortName": "failover_instance"
       },
       "description": "Sample for FailoverInstance",
-      "file": "redis_v1_generated_cloud_redis_failover_instance_sync.py",
+      "file": "redis_v1_generated_cloud_redis_failover_instance_sync_09e8a4aa.py",
       "language": "PYTHON",
       "origin": "API_DEFINITION",
       "regionTag": "redis_v1_generated_CloudRedis_FailoverInstance_sync",
@@ -684,7 +936,91 @@
           "type": "RESPONSE_HANDLING"
         }
       ],
-      "title": "redis_v1_generated_cloud_redis_failover_instance_sync.py"
+      "title": "redis_v1_generated_cloud_redis_failover_instance_sync_09e8a4aa.py"
+    },
+    {
+      "canonical": true,
+      "clientMethod": {
+        "client": {
+          "fullName": "google.cloud.redis_v1.CloudRedisClient",
+          "shortName": "CloudRedisClient"
+        },
+        "fullName": "google.cloud.redis_v1.CloudRedisClient.failover_instance",
+        "method": {
+          "fullName": "google.cloud.redis.v1.CloudRedis.FailoverInstance",
+          "service": {
+            "fullName": "google.cloud.redis.v1.CloudRedis",
+            "shortName": "CloudRedis"
+          },
+          "shortName": "FailoverInstance"
+        },
+        "parameters": [
+          {
+            "name": "request",
+            "type": "google.cloud.redis_v1.types.FailoverInstanceRequest"
+          },
+          {
+            "name": "name",
+            "type": "str"
+          },
+          {
+            "name": "data_protection_mode",
+            "type": "google.cloud.redis_v1.types.FailoverInstanceRequest.DataProtectionMode"
+          },
+          {
+            "name": "retry",
+            "type": "google.api_core.retry.Retry"
+          },
+          {
+            "name": "timeout",
+            "type": "float"
+          },
+          {
+            "name": "metadata",
+            "type": "Sequence[Tuple[str, str]"
+          }
+        ],
+        "resultType": "google.api_core.operation.Operation",
+        "shortName": "failover_instance"
+      },
+      "description": "Sample for FailoverInstance",
+      "file": "redis_v1_generated_cloud_redis_failover_instance_sync_942aeabc.py",
+      "language": "PYTHON",
+      "origin": "API_DEFINITION",
+      "regionTag": "redis_v1_generated_CloudRedis_FailoverInstance_sync",
+      "segments": [
+        {
+          "end": 48,
+          "start": 27,
+          "type": "FULL"
+        },
+        {
+          "end": 48,
+          "start": 27,
+          "type": "SHORT"
+        },
+        {
+          "end": 33,
+          "start": 31,
+          "type": "CLIENT_INITIALIZATION"
+        },
+        {
+          "end": 38,
+          "start": 34,
+          "type": "REQUEST_INITIALIZATION"
+        },
+        {
+          "end": 45,
+          "start": 39,
+          "type": "REQUEST_EXECUTION"
+        },
+        {
+          "end": 49,
+          "start": 46,
+          "type": "RESPONSE_HANDLING"
+        }
+      ],
+      "title": "redis_v1_generated_cloud_redis_failover_instance_sync_942aeabc.py"
     },
     {
       "canonical": true,
@@ -809,7 +1145,7 @@
         "shortName": "get_instance"
       },
       "description": "Sample for GetInstance",
-      "file": "redis_v1_generated_cloud_redis_get_instance_sync.py",
+      "file": "redis_v1_generated_cloud_redis_get_instance_sync_7737c0ca.py",
       "language": "PYTHON",
       "origin": "API_DEFINITION",
       "regionTag": "redis_v1_generated_CloudRedis_GetInstance_sync",
@@ -845,7 +1181,87 @@
           "type": "RESPONSE_HANDLING"
         }
       ],
-      "title": "redis_v1_generated_cloud_redis_get_instance_sync.py"
+      "title": "redis_v1_generated_cloud_redis_get_instance_sync_7737c0ca.py"
+    },
+    {
+      "canonical": true,
+      "clientMethod": {
+        "client": {
+          "fullName": "google.cloud.redis_v1.CloudRedisClient",
+          "shortName": "CloudRedisClient"
+        },
+        "fullName": "google.cloud.redis_v1.CloudRedisClient.get_instance",
+        "method": {
+          "fullName": "google.cloud.redis.v1.CloudRedis.GetInstance",
+          "service": {
+            "fullName": "google.cloud.redis.v1.CloudRedis",
+            "shortName": "CloudRedis"
+          },
+          "shortName": "GetInstance"
+        },
+        "parameters": [
+          {
+            "name": "request",
+            "type": "google.cloud.redis_v1.types.GetInstanceRequest"
+          },
+          {
+            "name": "name",
+            "type": "str"
+          },
+          {
+            "name": "retry",
+            "type": "google.api_core.retry.Retry"
+          },
+          {
+            "name": "timeout",
+            "type": "float"
+          },
+          {
+            "name": "metadata",
+            "type": "Sequence[Tuple[str, str]"
+          }
+        ],
+        "resultType": "google.cloud.redis_v1.types.Instance",
+        "shortName": "get_instance"
+      },
+      "description": "Sample for GetInstance",
+      "file": "redis_v1_generated_cloud_redis_get_instance_sync_1e5fe51f.py",
+      "language": "PYTHON",
+      "origin": "API_DEFINITION",
+      "regionTag": "redis_v1_generated_CloudRedis_GetInstance_sync",
+      "segments": [
+        {
+          "end": 44,
+          "start": 27,
+          "type": "FULL"
+        },
+        {
+          "end": 44,
+          "start": 27,
+          "type": "SHORT"
+        },
+        {
+          "end": 33,
+          "start": 31,
+          "type": "CLIENT_INITIALIZATION"
+        },
+        {
+          "end": 38,
+          "start": 34,
+          "type": "REQUEST_INITIALIZATION"
+        },
+        {
+          "end": 41,
+          "start": 39,
+          "type": "REQUEST_EXECUTION"
+        },
+        {
+          "end": 45,
+          "start": 42,
+          "type": "RESPONSE_HANDLING"
+        }
+      ],
+      "title": "redis_v1_generated_cloud_redis_get_instance_sync_1e5fe51f.py"
     },
     {
       "canonical": true,
@@ -978,7 +1394,7 @@
         "shortName": "import_instance"
       },
       "description": "Sample for ImportInstance",
-      "file": "redis_v1_generated_cloud_redis_import_instance_sync.py",
+      "file": "redis_v1_generated_cloud_redis_import_instance_sync_6cfd3a88.py",
       "language": "PYTHON",
       "origin": "API_DEFINITION",
       "regionTag": "redis_v1_generated_CloudRedis_ImportInstance_sync",
@@ -1014,7 +1430,91 @@
           "type": "RESPONSE_HANDLING"
         }
       ],
-      "title": "redis_v1_generated_cloud_redis_import_instance_sync.py"
+      "title": "redis_v1_generated_cloud_redis_import_instance_sync_6cfd3a88.py"
+    },
+    {
+      "canonical": true,
+      "clientMethod": {
+        "client": {
+          "fullName": "google.cloud.redis_v1.CloudRedisClient",
+          "shortName": "CloudRedisClient"
+        },
+        "fullName": "google.cloud.redis_v1.CloudRedisClient.import_instance",
+        "method": {
+          "fullName": "google.cloud.redis.v1.CloudRedis.ImportInstance",
+          "service": {
+            "fullName": "google.cloud.redis.v1.CloudRedis",
+            "shortName": "CloudRedis"
+          },
+          "shortName": "ImportInstance"
+        },
+        "parameters": [
+          {
+            "name": "request",
+            "type": "google.cloud.redis_v1.types.ImportInstanceRequest"
+          },
+          {
+            "name": "name",
+            "type": "str"
+          },
+          {
+            "name": "input_config",
+            "type": "google.cloud.redis_v1.types.InputConfig"
+          },
+          {
+            "name": "retry",
+            "type": "google.api_core.retry.Retry"
+          },
+          {
+            "name": "timeout",
+            "type": "float"
+          },
+          {
+            "name": "metadata",
+            "type": "Sequence[Tuple[str, str]"
+          }
+        ],
+        "resultType": "google.api_core.operation.Operation",
+        "shortName": "import_instance"
+      },
+      "description": "Sample for ImportInstance",
+      "file": "redis_v1_generated_cloud_redis_import_instance_sync_6ca1d64d.py",
+      "language": "PYTHON",
+      "origin": "API_DEFINITION",
+      "regionTag": "redis_v1_generated_CloudRedis_ImportInstance_sync",
+      "segments": [
+        {
+          "end": 52,
+          "start": 27,
+          "type": "FULL"
+        },
+        {
+          "end": 52,
+          "start": 27,
+          "type": "SHORT"
+        },
+        {
+          "end": 33,
+          "start": 31,
+          "type": "CLIENT_INITIALIZATION"
+        },
+        {
+          "end": 42,
+          "start": 34,
+          "type": "REQUEST_INITIALIZATION"
+        },
+        {
+          "end": 49,
+          "start": 43,
+          "type": "REQUEST_EXECUTION"
+        },
+        {
+          "end": 53,
+          "start": 50,
+          "type": "RESPONSE_HANDLING"
+        }
+      ],
+      "title": "redis_v1_generated_cloud_redis_import_instance_sync_6ca1d64d.py"
     },
     {
       "canonical": true,
@@ -1139,7 +1639,7 @@
         "shortName": "list_instances"
       },
       "description": "Sample for ListInstances",
-      "file": "redis_v1_generated_cloud_redis_list_instances_sync.py",
+      "file": "redis_v1_generated_cloud_redis_list_instances_sync_2a6f1ec6.py",
       "language": "PYTHON",
       "origin": "API_DEFINITION",
       "regionTag": "redis_v1_generated_CloudRedis_ListInstances_sync",
@@ -1175,7 +1675,87 @@
           "type": "RESPONSE_HANDLING"
         }
       ],
-      "title": "redis_v1_generated_cloud_redis_list_instances_sync.py"
+      "title": "redis_v1_generated_cloud_redis_list_instances_sync_2a6f1ec6.py"
+    },
+    {
+      "canonical": true,
+      "clientMethod": {
+        "client": {
+          "fullName": "google.cloud.redis_v1.CloudRedisClient",
+          "shortName": "CloudRedisClient"
+        },
+        "fullName": "google.cloud.redis_v1.CloudRedisClient.list_instances",
+        "method": {
+          "fullName": "google.cloud.redis.v1.CloudRedis.ListInstances",
+          "service": {
+            "fullName": "google.cloud.redis.v1.CloudRedis",
+            "shortName": "CloudRedis"
+          },
+          "shortName": "ListInstances"
+        },
+        "parameters": [
+          {
+            "name": "request",
+            "type": "google.cloud.redis_v1.types.ListInstancesRequest"
+          },
+          {
+            "name": "parent",
+            "type": "str"
+          },
+          {
+            "name": "retry",
+            "type": "google.api_core.retry.Retry"
+          },
+          {
+            "name": "timeout",
+            "type": "float"
+          },
+          {
+            "name": "metadata",
+            "type": "Sequence[Tuple[str, str]"
+          }
+        ],
+        "resultType": "google.cloud.redis_v1.services.cloud_redis.pagers.ListInstancesPager",
+        "shortName": "list_instances"
+      },
+      "description": "Sample for ListInstances",
+      "file": "redis_v1_generated_cloud_redis_list_instances_sync_0d7cfa84.py",
+      "language": "PYTHON",
+      "origin": "API_DEFINITION",
+      "regionTag": "redis_v1_generated_CloudRedis_ListInstances_sync",
+      "segments": [
+        {
+          "end": 45,
+          "start": 27,
+          "type": "FULL"
+        },
+        {
+          "end": 45,
+          "start": 27,
+          "type": "SHORT"
+        },
+        {
+          "end": 33,
+          "start": 31,
+          "type": "CLIENT_INITIALIZATION"
+        },
+        {
+          "end": 38,
+          "start": 34,
+          "type": "REQUEST_INITIALIZATION"
+        },
+        {
+          "end": 41,
+          "start": 39,
+          "type": "REQUEST_EXECUTION"
+        },
+        {
+          "end": 46,
+          "start": 42,
+          "type": "RESPONSE_HANDLING"
+        }
+      ],
+      "title": "redis_v1_generated_cloud_redis_list_instances_sync_0d7cfa84.py"
     },
     {
       "canonical": true,
@@ -1308,7 +1888,7 @@
         "shortName": "update_instance"
       },
       "description": "Sample for UpdateInstance",
-      "file": "redis_v1_generated_cloud_redis_update_instance_sync.py",
+      "file": "redis_v1_generated_cloud_redis_update_instance_sync_4244840b.py",
       "language": "PYTHON",
       "origin": "API_DEFINITION",
       "regionTag": "redis_v1_generated_CloudRedis_UpdateInstance_sync",
@@ -1344,7 +1924,91 @@
           "type": "RESPONSE_HANDLING"
         }
       ],
-      "title": "redis_v1_generated_cloud_redis_update_instance_sync.py"
+      "title": "redis_v1_generated_cloud_redis_update_instance_sync_4244840b.py"
+    },
+    {
+      "canonical": true,
+      "clientMethod": {
+        "client": {
+          "fullName": "google.cloud.redis_v1.CloudRedisClient",
+          "shortName": "CloudRedisClient"
+        },
+        "fullName": "google.cloud.redis_v1.CloudRedisClient.update_instance",
+        "method": {
+          "fullName": "google.cloud.redis.v1.CloudRedis.UpdateInstance",
+          "service": {
+            "fullName": "google.cloud.redis.v1.CloudRedis",
+            "shortName": "CloudRedis"
+          },
+          "shortName": "UpdateInstance"
+        },
+        "parameters": [
+          {
+            "name": "request",
+            "type": "google.cloud.redis_v1.types.UpdateInstanceRequest"
+          },
+          {
+            "name": "update_mask",
+            "type": "google.protobuf.field_mask_pb2.FieldMask"
+          },
+          {
+            "name": "instance",
+            "type": "google.cloud.redis_v1.types.Instance"
+          },
+          {
+            "name": "retry",
+            "type": "google.api_core.retry.Retry"
+          },
+          {
+            "name": "timeout",
+            "type": "float"
+          },
+          {
+            "name": "metadata",
+            "type": "Sequence[Tuple[str, str]"
+          }
+        ],
+        "resultType": "google.api_core.operation.Operation",
+        "shortName": "update_instance"
+      },
+      "description": "Sample for UpdateInstance",
+      "file": "redis_v1_generated_cloud_redis_update_instance_sync_006c5383.py",
+      "language": "PYTHON",
+      "origin": "API_DEFINITION",
+      "regionTag": "redis_v1_generated_CloudRedis_UpdateInstance_sync",
+      "segments": [
+        {
+          "end": 53,
+          "start": 27,
+          "type": "FULL"
+        },
+        {
+          "end": 53,
+          "start": 27,
+          "type": "SHORT"
+        },
+        {
+          "end": 33,
+          "start": 31,
+          "type": "CLIENT_INITIALIZATION"
+        },
+        {
+          "end": 43,
+          "start": 34,
+          "type": "REQUEST_INITIALIZATION"
+        },
+        {
+          "end": 50,
+          "start": 44,
+          "type": "REQUEST_EXECUTION"
+        },
+        {
+          "end": 54,
+          "start": 51,
+          "type": "RESPONSE_HANDLING"
+        }
+      ],
+      "title": "redis_v1_generated_cloud_redis_update_instance_sync_006c5383.py"
     },
     {
       "canonical": true,
@@ -1477,7 +2141,7 @@
         "shortName": "upgrade_instance"
       },
       "description": "Sample for UpgradeInstance",
-      "file": "redis_v1_generated_cloud_redis_upgrade_instance_sync.py",
+      "file": "redis_v1_generated_cloud_redis_upgrade_instance_sync_b4d4bd59.py",
       "language": "PYTHON",
       "origin": "API_DEFINITION",
       "regionTag": "redis_v1_generated_CloudRedis_UpgradeInstance_sync",
@@ -1513,7 +2177,91 @@
           "type": "RESPONSE_HANDLING"
         }
       ],
-      "title": "redis_v1_generated_cloud_redis_upgrade_instance_sync.py"
+      "title": "redis_v1_generated_cloud_redis_upgrade_instance_sync_b4d4bd59.py"
+    },
+    {
+      "canonical": true,
+      "clientMethod": {
+        "client": {
+          "fullName": "google.cloud.redis_v1.CloudRedisClient",
+          "shortName": "CloudRedisClient"
+        },
+        "fullName": "google.cloud.redis_v1.CloudRedisClient.upgrade_instance",
+        "method": {
+          "fullName": "google.cloud.redis.v1.CloudRedis.UpgradeInstance",
+          "service": {
+            "fullName": "google.cloud.redis.v1.CloudRedis",
+            "shortName": "CloudRedis"
+          },
+          "shortName": "UpgradeInstance"
+        },
+        "parameters": [
+          {
+            "name": "request",
+            "type": "google.cloud.redis_v1.types.UpgradeInstanceRequest"
+          },
+          {
+            "name": "name",
+            "type": "str"
+          },
+          {
+            "name": "redis_version",
+            "type": "str"
+          },
+          {
+            "name": "retry",
+            "type": "google.api_core.retry.Retry"
+          },
+          {
+            "name": "timeout",
+            "type": "float"
+          },
+          {
+            "name": "metadata",
+            "type": "Sequence[Tuple[str, str]"
+          }
+        ],
+        "resultType": "google.api_core.operation.Operation",
+        "shortName": "upgrade_instance"
+      },
+      "description": "Sample for UpgradeInstance",
+      "file": "redis_v1_generated_cloud_redis_upgrade_instance_sync_45649d62.py",
+      "language": "PYTHON",
+      "origin": "API_DEFINITION",
+      "regionTag": "redis_v1_generated_CloudRedis_UpgradeInstance_sync",
+      "segments": [
+        {
+          "end": 49,
+          "start": 27,
+          "type": "FULL"
+        },
+        {
+          "end": 49,
+          "start": 27,
+          "type": "SHORT"
+        },
+        {
+          "end": 33,
+          "start": 31,
+          "type": "CLIENT_INITIALIZATION"
+        },
+        {
+          "end": 39,
+          "start": 34,
+          "type": "REQUEST_INITIALIZATION"
+        },
+        {
+          "end": 46,
+          "start": 40,
+          "type": "REQUEST_EXECUTION"
+        },
+        {
+          "end": 50,
+          "start": 47,
+          "type": "RESPONSE_HANDLING"
+        }
+      ],
+      "title": "redis_v1_generated_cloud_redis_upgrade_instance_sync_45649d62.py"
     }
   ]
 }

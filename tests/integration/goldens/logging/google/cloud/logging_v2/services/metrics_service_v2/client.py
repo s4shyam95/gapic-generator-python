@@ -42,6 +42,7 @@ from google.protobuf import timestamp_pb2  # type: ignore
 from .transports.base import MetricsServiceV2Transport, DEFAULT_CLIENT_INFO
 from .transports.grpc import MetricsServiceV2GrpcTransport
 from .transports.grpc_asyncio import MetricsServiceV2GrpcAsyncIOTransport
+from .transports.rest import MetricsServiceV2RestTransport
 
 
 class MetricsServiceV2ClientMeta(type):
@@ -54,6 +55,7 @@ class MetricsServiceV2ClientMeta(type):
     _transport_registry = OrderedDict()  # type: Dict[str, Type[MetricsServiceV2Transport]]
     _transport_registry["grpc"] = MetricsServiceV2GrpcTransport
     _transport_registry["grpc_asyncio"] = MetricsServiceV2GrpcAsyncIOTransport
+    _transport_registry["rest"] = MetricsServiceV2RestTransport
 
     def get_transport_class(cls,
             label: str = None,

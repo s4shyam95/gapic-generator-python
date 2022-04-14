@@ -41,6 +41,7 @@ from google.cloud.logging_v2.types import logging
 from .transports.base import LoggingServiceV2Transport, DEFAULT_CLIENT_INFO
 from .transports.grpc import LoggingServiceV2GrpcTransport
 from .transports.grpc_asyncio import LoggingServiceV2GrpcAsyncIOTransport
+from .transports.rest import LoggingServiceV2RestTransport
 
 
 class LoggingServiceV2ClientMeta(type):
@@ -53,6 +54,7 @@ class LoggingServiceV2ClientMeta(type):
     _transport_registry = OrderedDict()  # type: Dict[str, Type[LoggingServiceV2Transport]]
     _transport_registry["grpc"] = LoggingServiceV2GrpcTransport
     _transport_registry["grpc_asyncio"] = LoggingServiceV2GrpcAsyncIOTransport
+    _transport_registry["rest"] = LoggingServiceV2RestTransport
 
     def get_transport_class(cls,
             label: str = None,

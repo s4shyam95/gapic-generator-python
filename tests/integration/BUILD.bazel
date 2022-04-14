@@ -53,6 +53,7 @@ py_gapic_library(
     grpc_service_config = "cloudasset_grpc_service_config.json",
     opt_args = [
         "autogen-snippets",
+        "python-gapic-transport=grpc+rest",
     ],
 )
 
@@ -63,6 +64,7 @@ py_gapic_library(
     grpc_service_config = "iamcredentials_grpc_service_config.json",
     opt_args = [
         "autogen-snippets",
+        "python-gapic-transport=grpc+rest",
     ],
 )
 
@@ -75,6 +77,7 @@ py_gapic_library(
         "python-gapic-namespace=google.cloud",
         "python-gapic-name=logging",
         "autogen-snippets",
+        "python-gapic-transport=grpc+rest",
     ],
 )
 
@@ -84,5 +87,6 @@ py_gapic_library(
     grpc_service_config = "redis_grpc_service_config.json",
     opt_args = [
         "autogen-snippets",
+        "python-gapic-transport=grpc+rest",
     ],
 )

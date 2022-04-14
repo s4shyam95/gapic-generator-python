@@ -145,6 +145,7 @@ class {{service.name}}RestTransport({{service.name}}Transport):
             always_use_jwt_access: Optional[bool]=False,
             url_scheme: str='https',
             interceptor: Optional[{{ service.name }}RestInterceptor] = None,
+            session: AuthorizedSession = None,
             ) -> None:
         """Instantiate the transport.
 
@@ -177,6 +178,8 @@ class {{service.name}}RestTransport({{service.name}}Transport):
             url_scheme: the protocol scheme for the API endpoint.  Normally
                 "https", but for testing or local servers,
                 "http" can be specified.
+            session: The requests session to be used by the REST transport to make
+                the requests. A new session is created if None.
         """
         # Run the base constructor
         # TODO(yon-mg): resolve other ctor params i.e. scopes, quota, etc.
@@ -196,8 +199,11 @@ class {{service.name}}RestTransport({{service.name}}Transport):
             client_info=client_info,
             always_use_jwt_access=always_use_jwt_access,
         )
-        self._session = AuthorizedSession(
-            self._credentials, default_host=self.DEFAULT_HOST)
+        if session:
+            self._session = session
+        else:
+            self._session = AuthorizedSession(
+                self._credentials, default_host=self.DEFAULT_HOST)
         {% if service.has_lro %}
         self._operations_client: Optional[operations_v1.AbstractOperationsClient] = None
         {% endif %}
